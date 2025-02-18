@@ -1,10 +1,17 @@
 import React from 'react';
-import Example from './components/example/Example'
+import Comp from './components/Comp'
 
 export const App = () => {
+  const handleClick = () => {
+    console.log("Кнопка натиснута!");
+  };
+
   return (
     <div>
-      <Example />
+        <Comp 
+        name="Іван" 
+        text="Це ваше перше React-завдання!" 
+        onClick={handleClick} />
     </div>
   );
 };
