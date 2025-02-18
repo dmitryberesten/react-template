@@ -38,6 +38,11 @@ body{
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     animation: borderAnimation 4s infinite alternate;
     transition: transform 0.3s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
   }
   
   .recipe-card:hover {
