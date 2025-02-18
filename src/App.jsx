@@ -1,7 +1,8 @@
 import React from 'react';
 import { Recipe } from './components/example/Recipe';
-import recipes from '../recipes.json';
-import'App.css'
+import recipes from 'recipies.json';
+import './index.css';
+
 
 
 export const App = () => {
