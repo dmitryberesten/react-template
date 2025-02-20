@@ -28,6 +28,10 @@ const GlobalStyle = createGlobalStyle`
     50% { border-color: #006400; } 
     100% { border-color: #a8d5ba; } 
   }
+
+  .bd{
+    width: 100%;
+  }
 `;
 
 export default GlobalStyle;
