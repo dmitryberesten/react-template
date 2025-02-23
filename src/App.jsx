@@ -1,10 +1,12 @@
 import React from 'react';
-import Example from './components/example/Example'
+import data from 'data.json';
+import Statistics from './components/example/Statistics';
 
 export const App = () => {
   return (
     <div>
-      <Example />
+      <Statistics title="Upload stats" stats={data} />
     </div>
   );
 };
+
