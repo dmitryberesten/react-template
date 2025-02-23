@@ -1,10 +1,11 @@
 import React from 'react';
-import Example from './components/example/Example'
+import friends from 'friends.json';
+import FriendList from './components/example/FriendList';
 
 export const App = () => {
   return (
     <div>
-      <Example />
+      <FriendList friends={friends} />
     </div>
   );
 };
