@@ -1,10 +1,11 @@
 import React from 'react';
-import Example from './components/example/Example'
+import transactions from 'transactions.json';
+import TransactionHistory from './components/example/TransactionHistory';
 
 export const App = () => {
   return (
     <div>
-      <Example />
+      <TransactionHistory items={transactions} />
     </div>
   );
 };
